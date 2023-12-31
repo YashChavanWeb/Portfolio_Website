@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Metadata -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the page -->
+    <title>Portfolio</title>
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Link to Boxicons library -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/dist/boxicons.css">
+</head>
+
+<body>
+
+
+
+
+
+
+    <!---------------------------- Navigation bar ----------------------------->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Portfolio</div>
+
+            <ul class="nav-items">
+                <li class="item"><a href="#home">Home</a></li>
+                <li class="item"><a href="#about">About</a></li>
+                <li class="item"><a href="#skills">Skills</a></li>
+                <li class="item"><a href="#projects">Projects</a></li>
+                <li class="item"><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="themeToggle">Light Theme</button>
+
+        </div>
+    </nav>
+
+
+
+
+
+
+
+    <!---------------------------- Home Section ----------------------------->
+
+    <section id="home" class="section">
+        <div class="container">
+            <div class="home-content">
+                <!-- User image -->
+                <div class="image-container">
+                    <img src="Images/myface.jpg" alt="Dummy Image" class="home-image">
+                </div>
+                <!-- Home text content -->
+                <div class="text-container">
+                    <div class="home-text">
+                        <h1>I am Yash Chavan</h1>
+                        <p>
+                            Enthusiastic Web Developer skilled in HTML, CSS, JS and currently exploring React. My
+                            portfolio showcases a dynamic blend of expertise and a commitment to ongoing learning.
+                        </p>
+                        <!-- Explore button -->
+                        <div class="explore-button-container">
+                            <a href="Images/Yash Chavan - Portfolio.pdf" class="explore-button" id="downloadButton" target="_blank">Download Portfolio</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!---------------------------- About Me Section ----------------------------->
+
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <div class="container">
+            <div class="about-content">
+                <!-- About text and buttons -->
+                <div class="about-text">
+                    <p>
+                        Welcome to my portfolio! I'm Yash Chavan, a student at VCET College, proficient in <span>HTML,
+                            CSS, and JavaScript</span>. My passion lies in <span>Web Development</span>, where I bring
+                        ideas to life with a focus on design and user experience. With a solid foundation in <span>Data
+                            Structures</span> and programming languages like <span>C, C++, and Java,</span> I tackle
+                        real-world challenges with efficiency. Explore my projects to see firsthand my commitment to
+                        problem-solving and <span>Logical Thinking</span>
+                    </p>
+                    <div class="buttons-container">
+                        <button class="info-button" onclick="showInfo('button1')">Education</button>
+                        <button class="info-button" onclick="showInfo('button2')">Expertise</button>
+                        <button class="info-button" onclick="showInfo('button3')">Experience</button>
+                    </div>
+                    <!-- Information containers for each button -->
+                    <div id="info-button1" class="info-content">
+                        <p><span>Till 10th : </span> Carmelite Convent English School <br>
+                            <span>11th & 12th : </span> Thomas Baptista Jr College <br>
+                            <span>Current Pursuit : </span> Computer Engineering BE at VCET College.
+                        </p>
+                    </div>
+                    <div id="info-button2" class="info-content">
+                        <p>
+                            Proficient in crafting seamless ,<span>responsive websites.</span> <br>
+                            Skilled in leveraging advanced for enhanced functionality in <span> AI Tools.</span> <br>
+                            Hands-on, practical problem-solving experience of <span> One Year.</span> <br>
+                            Adept at implementing efficient C <span>data structures. </span><br>
+                        </p>
+                    </div>
+                    <div id="info-button3" class="info-content">
+                        <p>
+                            Executed versatile <span> projects </span>, applying practical skills. <br>
+                            Applied theory to <span> real-world </span>scenarios, showcasing proficiency. <br>
+                            Contributed to <span> problem-solving </span>, fostering growth. <br>
+                        </p>
+                    </div>
+                </div>
+                <!-- About image -->
+                <div class="about-image-container">
+                    <img src="Images/aboutimg.jpg" alt="Dummy Image" class="about-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!---------------------------- Skills Section ----------------------------->
+
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <div class="container">
+            <div class="web-dev">
+                <h3>Web Development</h3>
+                <div class="skills-container">
+                    <div class="skill-item">
+                        <p>HTML</p>
+                        <div class="progress-bar html-progress">
+                            <div class="progress" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <p>CSS</p>
+                        <div class="progress-bar css-progress">
+                            <div class="progress" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <p>JavaScript</p>
+                        <div class="progress-bar js-progress">
+                            <div class="progress" style="width: 60%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="other">
+                <div class="skills-container">
+                    <h3>Other</h3>
+                    <div class="skill-item">
+                        <p>Data Structures</p>
+                        <div class="progress-bar ds-progress">
+                            <div class="progress" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <p>C++</p>
+                        <div class="progress-bar java-progress">
+                            <div class="progress" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <p>Java</p>
+                        <div class="progress-bar cpp-progress">
+                            <div class="progress" style="width: 60%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <!---------------------------- Projects Section ----------------------------->
+
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="container">
+
+            <!-- Project cards -->
+            <div class="project-card">
+                <img src="Images/weather.png" alt="Project Image">
+                <div class="overlay"></div>
+                <div class="project-details">
+                    <h3>Weather APP</h3>
+                    <p>Stay ahead of the forecast with our weather app, delivering real-time updates and weather
+                        insights for your location..</p>
+                </div>
+                <!-- Social icons -->
+                <div class="social-icons">
+                    <a href="https://github.com/YashChavanWeb/PRODIGY_WD_05" target="_blank"><box-icon type='logo'
+                            name='github'></box-icon></a>
+                    <a href="https://www.linkedin.com/in/yash-chavan-5b91a426b/" target="_blank"> <box-icon
+                            name='linkedin-square' type='logo'></box-icon></a>
+                    <a href="https://www.instagram.com/yashchavan4628/" target="_blank"><box-icon name='instagram'
+                            type='logo'></box-icon></a>
+                </div>
+            </div>
+
+            <!-- Project cards -->
+            <div class="project-card">
+                <img src="Images/ticket.png" alt="Project Image">
+                <div class="overlay"></div>
+                <div class="project-details">
+                    <h3>Movie Ticket Booking System</h3>
+                    <p> A minimalist website created with HTML, CSS, and JavaScript with features like seat selection
+                        and Professional UI.</p>
+                </div>
+                <!-- Social icons -->
+                <div class="social-icons">
+                    <a href="https://github.com/YashChavanWeb/ticket_booking_system" target="_blank"><box-icon
+                            type='logo' name='github'>
+                        </box-icon></a>
+                    <a href="https://www.linkedin.com/in/yash-chavan-5b91a426b/" target="_blank"> <box-icon
+                            name='linkedin-square' type='logo'></box-icon></a>
+                    <a href="https://www.instagram.com/yashchavan4628/" target="_blank"><box-icon name='instagram'
+                            type='logo'></box-icon></a>
+                </div>
+            </div>
+
+            <!-- Project cards -->
+            <div class="project-card">
+                <img src="Images/shape.png" alt="Project Image">
+                <div class="overlay"></div>
+                <div class="project-details">
+                    <h3>Shape Drawer</h3>
+                    <p>Unleash creativity with our intuitive shape drawing website. Effortlessly create and customize
+                        shapes with precision. </p>
+                </div>
+                <!-- Social icons -->
+                <div class="social-icons">
+                    <a href="https://github.com/YashChavanWeb/computer_graphics_project" target="_blank"><box-icon
+                            type='logo' name='github'></box-icon></a>
+                    <a href="https://www.linkedin.com/in/yash-chavan-5b91a426b/" target="_blank"> <box-icon
+                            name='linkedin-square' type='logo'></box-icon></a>
+                    <a href="https://www.instagram.com/yashchavan4628/" target="_blank"><box-icon name='instagram'
+                            type='logo'></box-icon></a>
+                </div>
+            </div>
+
+            <!-- Project cards -->
+            <div class="project-card">
+                <img src="Images/tic.png" alt="Project Image">
+                <div class="overlay"></div>
+                <div class="project-details">
+                    <h3>Tic-Tac-Toe Game</h3>
+                    <p>Experience timeless fun on Tic Tac Toe game e. Play against friends or challenge our AI, with
+                        user-friendly interface.</p>
+                </div>
+                <!-- Social icons -->
+                <div class="social-icons">
+                    <a href="https://github.com/YashChavanWeb/PRODIGY_WD_03" target="_blank"><box-icon type='logo'
+                            name='github'></box-icon></a>
+                    <a href="https://www.linkedin.com/in/yash-chavan-5b91a426b/" target="_blank"> <box-icon
+                            name='linkedin-square' type='logo'></box-icon></a>
+                    <a href="https://www.instagram.com/yashchavan4628/" target="_blank"><box-icon name='instagram'
+                            type='logo'></box-icon></a>
+                </div>
+            </div>
+
+
+
+
+            <!-- Project cards -->
+            <div class="project-card">
+                <img src="Images/notes.png" alt="Project Image">
+                <div class="overlay"></div>
+                <div class="project-details">
+                    <h3>Coding Notes </h3>
+                    <p>Streamline your coding experience with our Code Notes website, with organization and
+                        accessibility for your snippets.</p>
+                </div>
+                <!-- Social icons -->
+                <div class="social-icons">
+                    <a href="https://github.com/YashChavanWeb/perfectcode" target="_blank"><box-icon type='logo'
+                            name='github'></box-icon></a>
+                    <a href="https://www.linkedin.com/in/yash-chavan-5b91a426b/" target="_blank"> <box-icon
+                            name='linkedin-square' type='logo'></box-icon></a>
+                    <a href="https://www.instagram.com/yashchavan4628/" target="_blank"><box-icon name='instagram'
+                            type='logo'></box-icon></a>
+                </div>
+            </div>
+
+
+            <!-- Project cards -->
+            <div class="project-card">
+                <img src="Images/land.png" alt="Project Image">
+                <div class="overlay"></div>
+                <div class="project-details">
+                    <h3>Landing Page</h3>
+                    <p>Attract and convert visitors with our sleek landing page, engaging design, and compelling
+                        call-to-action.</p>
+                </div>
+                <!-- Social icons -->
+                <div class="social-icons">
+                    <a href="https://github.com/YashChavanWeb/CODSOFT/tree/main/01_Landing%20Page" target="_blank"><box-icon type='logo'
+                            name='github'></box-icon></a>
+                    <a href="https://www.linkedin.com/in/yash-chavan-5b91a426b/" target="_blank"> <box-icon
+                            name='linkedin-square' type='logo'></box-icon></a>
+                    <a href="https://www.instagram.com/yashchavan4628/" target="_blank"><box-icon name='instagram'
+                            type='logo'></box-icon></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <!---------------------------- Contact Section ----------------------------->
+
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <div class="container">
+            <!-- Contact form -->
+            <form action="submit_form.php" method="post" id="contactForm">
+                <!-- Name input -->
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required aria-describedby="name-description">
+                </div>
+
+                <!-- Job selection -->
+                <div class="form-group">
+                    <label for="job">Field for Hiring:</label>
+                    <select id="job" name="job" required aria-describedby="job-description">
+                        <option value="" disabled selected>Select a job</option>
+                        <option value="web-developer">Web Developer</option>
+                        <option value="designer">Designer</option>
+                        <option value="marketing">Marketing Professional</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <!-- Medium of contact selection -->
+                <div class="form-group">
+                    <label for="medium">Preferred Medium of Contact:</label>
+                    <select id="medium" name="medium" required aria-describedby="medium-description">
+                        <option value="" disabled selected>Select a medium</option>
+                        <option value="email">Email</option>
+                        <option value="phone">Phone</option>
+                        <option value="social-media">Social Media</option>
+                    </select>
+                </div>
+
+
+                <!-- Additional message textarea -->
+                <div class="form-group">
+                    <label for="message">Additional Message:</label>
+                    <textarea id="message" name="message" rows="4" required
+                        aria-describedby="message-description"></textarea>
+                </div>
+
+                <!-- Submit button -->
+                <button type="submit" aria-label="Submit Form">Submit</button>
+            </form>
+
+        </div>
+    </section>
+
+
+
+
+
+
+    <!---------------------------- footer Section ----------------------------->
+
+    <footer
+        style="background-color: black; padding: 10px; text-align: center; color: white; font-size: 14px; font-family: 'Arial', sans-serif;">
+        &copy; 2023 Yash Chavan. All rights reserved. | Designed and developed by Yash Chavan
+    </footer>
+
+
+
+
+
+
+
+    <!-- JavaScript files -->
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+
+</html>
