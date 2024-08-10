@@ -1,7 +1,3 @@
-Certainly! Here's a completed README file for your personal portfolio project:
-
----
-
 # Yash Chavan Portfolio
 
 Welcome to my personal portfolio project! This website showcases my skills, experience, and projects. It's created using HTML and CSS, making it an ideal project for beginners in web development.
@@ -69,6 +65,3 @@ If you have any feedback or suggestions for improving this project, please feel 
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
-
-Feel free to customize this README file further to suit your preferences and project requirements. Happy coding!
